@@ -1,3 +1,3 @@
 # stepik_course_auto
-Задания из курс
-govno
+first push in git
+tasks of stepik_course_auto
