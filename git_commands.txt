@@ -1,0 +1,83 @@
+1. Change your name and email:
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+
+
+2. Clone repository:
+
+git clone <url>
+
+
+
+3.Add data to index:
+
+git add .   or   git add --all   or   git add -a    or   git add <file>
+
+
+
+4. Add commit:
+
+git commit -m "comment"
+
+
+
+5. Push data to server:
+
+git push 
+
+
+
+6. Track a remote branch:
+
+git checkout -b <local_branch_name> <origin/remote_branch_name>
+or
+git checkout --track <origin/remote_branch_name>
+
+
+
+7. Get updates:
+
+git fetch
+
+
+
+8. Get updates and merge them into your branch:
+
+git pull
+
+
+
+9. Switch branch
+
+git checkout <destination_branch_name>
+
+
+
+10. Create new branch
+
+git checkout -b <branch_name>
+
+
+
+11. Browsing branches:
+
+ - local
+   git branch
+
+ - remote
+   git branch -r   or   git branch --remote
+
+ - all
+   git branch -a   or   git branch --all
+
+
+
+12. Delete branch
+
+ - local
+   git branch -d <branch_name>   or   git branch --delete <branch_name>
+
+ - remote
+   git push origin --delete <branch_name>
